@@ -158,11 +158,22 @@ header {
 /* HERO */
 
 .hero-container {
-  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
   padding-top: 200px;
-  padding-bottom: 200px;
+
   background-color: var(--hero-bg);
   text-align: center;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -302,6 +313,7 @@ header {
 /* FOOT-CONTAINER */
 
 .foot-container {
+  height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--hero-bg);
