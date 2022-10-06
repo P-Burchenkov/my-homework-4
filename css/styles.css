@@ -151,9 +151,21 @@ header {
   color: var(--accent-color);
 }
 
+.adress-item {
+  display: inline-flex;
+  align-items: center;
+  /* align-self: center; */
+}
+
 .adress-item:last-child {
   margin-left: 50px;
 }
+
+/* .adress-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+} */
 
 /* HERO */
 
@@ -247,10 +259,6 @@ header {
 
 .works-list {
   display: flex;
-}
-
-.work-list-link {
-  line-height: 0px;
 }
 
 .work-list-item:not(:last-child) {
