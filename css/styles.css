@@ -141,31 +141,28 @@ header {
   letter-spacing: 0.02em;
 }
 
-.adress-link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.adress-link:hover,
-.adress-link:focus {
-  color: var(--accent-color);
-}
-
 .adress-item {
   display: inline-flex;
   align-items: center;
-  /* align-self: center; */
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.adress-item:hover,
+.adress-item:focus {
+  stroke: var(--accent-color);
+  color: var(--accent-color);
+  cursor: pointer;
 }
 
 .adress-item:last-child {
   margin-left: 50px;
 }
 
-/* .adress-icon {
+.adress-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-} */
+}
 
 /* HERO */
 
@@ -253,6 +250,18 @@ header {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+.values-icon-container {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+}
+
+.values-icon {
+  width: 70px;
+  height: 70px;
 }
 
 /* WORKS */
