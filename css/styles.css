@@ -325,6 +325,42 @@ header {
   color: var(--secondary-text-color);
 }
 
+/* CLIENTS */
+
+.clients-list {
+  display: flex;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-item:not(last-child) {
+  margin-right: 30px;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+  border-color: var(--accent-color);
+  cursor: pointer;
+  fill: var(--accent-color);
+}
+
+.client-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.client-icon:hover,
+.client-icon:focus {
+  fill: var(--accent-color);
+}
+
 /* FOOTER */
 
 /* FOOT-CONTAINER */
