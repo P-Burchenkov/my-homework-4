@@ -39,13 +39,20 @@
           </ul>
         </nav>
 
-        <ul class="adress">
+         <ul class="adress">
           <li class="adress-item">
+            <svg class="adress-icon" width="16" height="12">
+              <use href="./images/sprite.svg#icon-letter"></use>
+            </svg>
             <a href="mailto:info@devstudio.com" class="adress-link"
               >info@devstudio.com</a
             >
           </li>
+
           <li class="adress-item">
+            <svg class="adress-icon" width="10" height="16">
+              <use href="./images/sprite.svg#icon-smartphone"></use>
+            </svg>
             <a href="tel:+380961111111" class="adress-link"
               >+38 096 111 11 11</a
             >
@@ -208,9 +215,10 @@
       </section>
     </main>
 
-    <footer class="foot">
+    <footer>
       <div class="container foot-container">
-        <a href="./index.html" class="logo"
+        <div class="foot-flex-container">
+            <a href="./index.html" class="logo"
           ><span class="logo-web-foot">Web</span
           ><span class="logo-studio-foot">Studio</span></a
         >
@@ -238,6 +246,35 @@
             </li>
           </ul>
         </address>
+        </div>
+        <div class="foot-flex-container">
+            <p class="foot-text">приєднуйтесь</p>
+            <ul class="site-network-list">
+                <li class="site-network-item">
+                  <a href="" class="site-network-link">
+                    <svg class="site-network-icon">
+                      <use href="./images/sprite.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+                <li class="site-network-item">
+                  <a href="" class="site-network-link">
+                    <svg class="site-network-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+                <li class="site-network-item">
+                  <a href="" class="site-network-link">
+                    <svg class="site-network-icon">
+                      <use href="./images/sprite.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+                <li class="site-network-item">
+                  <a href="" class="site-network-link">
+                    <svg class="site-network-icon">
+                      <use href="./images/sprite.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+        </div>
       </div>
     </footer>
   </body>
