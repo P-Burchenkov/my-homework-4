@@ -144,18 +144,23 @@ header {
 .adress-item {
   display: inline-flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .adress-item:hover,
 .adress-item:focus {
-  stroke: var(--accent-color);
+  fill: var(--accent-color);
   color: var(--accent-color);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .adress-item:last-child {
   margin-left: 50px;
+}
+
+.adress-link {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .adress-icon {
